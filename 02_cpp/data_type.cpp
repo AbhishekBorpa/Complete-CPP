@@ -29,19 +29,24 @@ int main(){
 
 
     // bool  : True and false
-    bool  red_light =true;
+    // bool  red_light =true;
 
-    bool aa  = false;
-    bool bb = false;
-    cout<<sizeof(aa)<<endl;
-    if(aa==true){
-        cout<<"hey"<<endl;
+    // bool aa  = false;
+    // bool bb = false;
+    // cout<<sizeof(aa)<<endl;
+    // if(aa==true){
+    //     cout<<"hey"<<endl;
 
-    }else{
-        cout<<"no"<<endl;
-    }
+    // }else{
+    //     cout<<"no"<<endl;
+    // }
 
-    
+    // char ('a')  8  Bytes can include 256 values.
+
+    char val = 65;
+    string abhi = "abhishek singh is writting our new project code";
+    cout<<abhi<<endl;
+    cout<<val<<endl;
     
     return 0;
 }
