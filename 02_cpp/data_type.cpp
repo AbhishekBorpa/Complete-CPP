@@ -47,6 +47,20 @@ int main(){
     string abhi = "abhishek singh is writting our new project code";
     cout<<abhi<<endl;
     cout<<val<<endl;
-    
+
+
+
+
+
+
+    // auto  : identify type automatically
+
+
+
+    // auto val1 = 23;
+    // auto val2 = 23.0f;
+    // auto val3 = 'e';
+    // cout<<val3<<endl;
+
     return 0;
 }
