@@ -22,7 +22,11 @@ int main(){
 
     // precendence(which ops to do first) and associativity(dir or order)
 
-    int  result = (a+(b*(c/d))-(e*f));
-    cout<<result<<endl;
+    // int  result = (a+(b*(c/d))-(e*f));
+    // cout<<result<<endl;
+
+    // prefix(increment and decrement) and postfix( incre and decre)
+    // f =f+1 ;
+    cout<<++f<<endl;
     return 0;
 }
