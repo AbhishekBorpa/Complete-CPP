@@ -1,4 +1,7 @@
 #include <iostream>
+#include <iomanip>
+#include <ios>
+#include <limits>
 using namespace std;
 
 int main(){
@@ -30,10 +33,25 @@ int main(){
     // cout<<++f<<endl;
 
     //  assignment operator
-    int ram = 10;
-    ram+= 1;
-    ram *=3;
-    ram%= 6;
-    cout<<ram<<endl;
+    //  comparison operator(<,>,<=,>=,!=,==)
+    //  logical operator (and,or,not,xor)(&&,||,!)
+    // bitwise operator
+
+    // int ram = 10;
+    // ram+= 1;
+    // ram *=3;
+    // ram%= 6;
+    // cout<<ram<<endl;
+
+    // output formatting
+
+
+    std::cout<<"hello"<<std::endl; // new line and /n canbe used
+    // std::flush<< ;    // show data of buffer
+    std::cout<<std::setw(10) <<"hey"<<std::endl;  //std::right -> right justification
+    // std::setfill
+    // std::boolalpha; std::showpos;std::dec,oct,hex,std::scientific,fixed..
+
+    // limits : min,mac,lowest for data-types
     return 0;
 }
