@@ -2,6 +2,8 @@
 #include <iomanip>
 #include <ios>
 #include <limits>
+#include <math.h>
+#include <cmath>
 using namespace std;
 
 int main(){
@@ -53,5 +55,11 @@ int main(){
     // std::boolalpha; std::showpos;std::dec,oct,hex,std::scientific,fixed..
 
     // limits : min,mac,lowest for data-types
+    std::cout<< std::numeric_limits<short>::min()  << " to " <<std::numeric_limits<short>::max();
+    
+    // math function
+    // floar and ceil()
+    int nam = 23.98;
+
     return 0;
 }
