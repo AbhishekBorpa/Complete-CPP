@@ -19,12 +19,28 @@ int main(){
     // std::cout<<a<<std::endl;
 
     // float and double;  for  precision
-    float num1 = 1.2345f;
-    float num2 =  1234.432f;
-    double num3 = 3444.222222222222222;
-    long double num4  = 345.543322344L;
-    std::setprecision(3);
-    cout<<num4<<endl;
+    // float num1 = 1.2345f;
+    // float num2 =  1234.432f;
+    // double num3 = 3444.222222222222222;
+    // long double num4  = 345.543322344L;
+    // std::setprecision(3);
+    // cout<<num4<<endl;
+    
+
+
+    // bool  : True and false
+    bool  red_light =true;
+
+    bool aa  = false;
+    bool bb = false;
+    cout<<sizeof(aa)<<endl;
+    if(aa==true){
+        cout<<"hey"<<endl;
+
+    }else{
+        cout<<"no"<<endl;
+    }
+
     
     
     return 0;
